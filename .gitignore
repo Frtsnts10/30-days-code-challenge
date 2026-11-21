@@ -1,0 +1,69 @@
+# ---- OS / editors ----
+.DS_Store
+Thumbs.db
+desktop.ini
+.vscode/
+.idea/
+*.swp
+*~
+
+# ---- Secrets (never commit) ----
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+
+# ---- Python ----
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+env/
+.pytest_cache/
+.mypy_cache/
+*.egg-info/
+dist/
+build/
+
+# ---- Node.js ----
+node_modules/
+npm-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+.next/
+out/
+.cache/
+
+# ---- Go ----
+*.exe
+*.test
+*.out
+bin/
+
+# ---- Rust ----
+target/
+
+# ---- C / C++ ----
+*.o
+*.obj
+*.a
+*.so
+*.dll
+cmake-build-*/
+
+# ---- Java / C# ----
+*.class
+*.jar
+obj/
+[Bb]in/[Dd]ebug/
+[Bb]in/[Rr]elease/
+
+# ---- Databases & runtime data ----
+*.sqlite3
+*.db
+*.log
+coverage/
+
+# ---- Day 01: bulk renamer undo logs ----
+.bulk-rename-*.json
